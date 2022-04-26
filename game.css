@@ -27,6 +27,7 @@
 
 .correct {
   background-color: #28a745;
+  animation: bounceIn 2s;	
 }
 
 .incorrect {

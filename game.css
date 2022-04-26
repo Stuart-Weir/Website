@@ -27,9 +27,8 @@
 
 .correct {
   background-color: #28a745;
- 
-         
- @keyframes flash {
+}
+@keyframes flash {
     0%, 50%, 100% {
        opacity: 1;
     }
@@ -37,11 +36,6 @@
        opacity: 0;
     }
  }
-
- .flash {
-    animation-name: flash;
- }    	
-
 
 .incorrect {
   background-color: #dc3545;
@@ -76,7 +70,6 @@
 	  width: 0%;
 }
 
-/* LOADER */
 #loader {
 	  border: 1.6rem solid white;
 	  border-radius: 50%;

@@ -63,7 +63,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign('/Users/maide/Desktop/WebTechCoursework/Full_to_style/end.html');
+        return window.location.assign('https://stuart-weir.github.io/Website/end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -97,12 +97,12 @@ choices.forEach((choice) => {
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
 			//ADD CORRECT SOUND EFFECT
-			var audio = new Audio('C:/Users/maide/Desktop/WebTechCoursework/Full_to_style/correct-6033.mp3');
+			var audio = new Audio('https://stuart-weir.github.io/Website/correct-6033.mp3');
 			audio.play();
         }
 		if (classToApply === 'incorrect') {
 			//ADD INCORRECT SOUND EFFECT
-			var audio = new Audio('C:/Users/maide/Desktop/WebTechCoursework/Full_to_style/wrong-buzzer-6268.mp3');
+			var audio = new Audio('https://stuart-weir.github.io/Website/wrong-buzzer-6268.mp3');
 			audio.play();
 		}
         selectedChoice.parentElement.classList.add(classToApply);

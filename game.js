@@ -63,7 +63,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
         //go to the end page
-        return window.location.assign("https://stuart-weir.github.io/Website/end.html");
+        return window.location.assign('https://stuart-weir.github.io/Website/end.html');
     }
     questionCounter++;
     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
@@ -97,7 +97,7 @@ choices.forEach((choice) => {
         if (classToApply === 'correct') {
             incrementScore(CORRECT_BONUS);
 			//ADD CORRECT SOUND EFFECT
-			var audio = new Audio('https://stuart-weir.github.io/Website/correct-6033.mp3');
+			var audio = new Audio('correct-6033.mp3');
 			audio.play();
         }
 		if (classToApply === 'incorrect') {

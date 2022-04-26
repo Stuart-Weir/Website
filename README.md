@@ -1,6 +1,6 @@
 # Website
-Test Website for WebTech Class
+Test Quiz Website for WebTech Class
 
-I am learning how to use git bash here
+I am using this for my WebTech coursework
 
-D changed
+

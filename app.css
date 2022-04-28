@@ -20,7 +20,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: #cf9800; \\#56a5eb;
+  color: #cf9800; 
   text-shadow: 2px 2px red;
   text-decoration: underline #cf9800;
   \\text-decoration-style: wavy;
@@ -46,7 +46,6 @@ h3 {
   
 }
 
-/* UTILITIES */
 
 .container {
   width: 100vw;
@@ -84,7 +83,7 @@ h3 {
   display: none;
 }
 
-/* BUTTONS */
+
 .btn {
   font-size: 1.8rem;
   padding: 1rem 0;

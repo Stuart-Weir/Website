@@ -48,7 +48,6 @@ fetch(
         console.error(err);
     });
 
-//CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 10;
 

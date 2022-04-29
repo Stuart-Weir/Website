@@ -1,6 +1,6 @@
 :root {
   background-color: #0b115b; 
-  font-size: 62.5%;
+  font-size: 68%;
 }
 
 * {
@@ -29,13 +29,13 @@ h1 {
 
 h1 > span {
   font-size: 2.4rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 4.2rem;
   margin-bottom: 4rem;
-  font-weight: 700;
+  font-weight: 800;
   color: #cf9800;
   text-shadow: 2px 2px red;
 }

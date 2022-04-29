@@ -58,18 +58,19 @@
 }
 
 #progressBarFull {
-	  height: 3.4rem;
-	  background-color: blue; 
-	  width: 0%;
+  height: 3.4rem;
+  background-color: blue; 
+  border-raduis: 10px;
+  width: 0%;
 }
 
 #loader {
-	  border: 1.6rem solid white;
-	  border-radius: 50%;
-	  border-top: 1.6rem solid #cf9800;;
-	  width: 12rem;
-	  height: 12rem;
-	  animation: spin 2s linear infinite;
+  border: 1.6rem solid white;
+  border-radius: 50%;
+  border-top: 1.6rem solid #cf9800;;
+  width: 12rem;
+  height: 12rem;
+  animation: spin 2s linear infinite;
 }
 
 @keyframes spin {

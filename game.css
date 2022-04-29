@@ -27,11 +27,11 @@
 }
 
 .correct {
-  background-color: #fe2712;
+  background-color: green;
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: red;
 }
 
 
